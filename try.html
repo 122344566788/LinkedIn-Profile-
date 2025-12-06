@@ -1,0 +1,800 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>try-web site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .cl{
+      background-color: #efeaea;
+    }
+    .container{
+      width: 100%;         
+      height: 70px;        
+      background-color: white;
+      margin-bottom: 70px;
+      display: flex;
+      align-items: center;  
+      padding: 0 20px;
+    }
+    .fa-brands.fa-linkedin{
+      margin-left: 49px;
+        font-size: 29px;
+        color:rgb(0, 81, 255);
+    }
+    .search-key{
+    margin-top: 8px;
+    margin-left: 30px;  
+    background-color: rgb(241, 234, 234);
+    height: 25px;
+    width: 149px;
+    border-radius: 18px;
+    padding: 7px;
+    border:none
+    }
+.fa-solid.fa-house{
+  margin-left: 100px;
+  font-size:25px;
+  color: rgb(170, 169, 169);
+
+}
+.fa-brands.fa-connectdevelop{
+  margin-left:100px;
+  font-size:25px;
+  color:rgb(170,169,169);
+}
+.fa-solid.fa-calendar{
+  margin-left:100px;
+  font-size:25px;
+  color:rgb(170,169,169);
+}
+.fa-solid.fa-message{
+  margin-left:100px;
+  font-size:25px;
+  color:rgb(170,169,169);
+}
+.fa-regular.fa-bell{
+  margin-left:100px;
+  font-size:25px;
+  color:rgb(170,169,169);
+}
+label{
+  margin-left: -25px;
+  font-size: 11px;
+  color:#6e6d6d;
+  margin-top: 44px;
+}
+.icon{
+  width:25px;
+  height:25px;
+  border-radius:13px;
+  border:none;
+  background-color: #6e6d6d;
+  margin-left: 80px;
+}
+.me{
+  margin-left: -18px;
+}
+.fa-solid.fa-caret-up{
+  margin-top: 30px;
+  margin-left: 0px;
+  font-size: 13px;
+  color:#6e6d6d;
+  min-height: 10px;
+  width:19px;
+}
+.fa-solid.fa-minus{
+  display:inline-block;
+  transform: rotate(90deg);
+  margin-left: 80px;
+  height:20px;
+  width: 20px;
+  font-size: 35px;
+  color:#979595
+}
+.fa-solid.fa-arrow-up-right-dots{
+margin-left:20px;
+font-size:25px;
+color: #6e6d6d;
+}
+.b{
+  margin-left:-35px;
+  font-size: 12px;
+}
+.fa-solid.fa-clapperboard{
+  font-size:37px;
+  margin-left:80px;
+  color: rgb(255, 197, 8);
+}
+.c{
+  margin-left: -44px;
+  font-size: 11px;
+}
+.bg{
+  background-color:white;
+  width: 17%;
+  height: 360px;
+  margin-left: 29px;
+  border-radius: 24px;
+}
+.iconone{
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+  .icontwo{
+  width:85px;
+  height:85px;
+  border-radius:43px;
+  border:none;
+  background-color: #6e6d6d;
+  margin-left: 20px;
+  margin-bottom: 170px;
+  top:-50px;
+  position: relative;
+  }
+  .bg h2{
+    margin-left: 40px;
+    margin-top: -220px;
+    font-size:25px;
+    color:#3b3a3a;
+    font-style: normal;
+  }
+  .fa-regular.fa-circle-check{
+    margin-left: 190px;
+    color:#0531f5;
+    top:-49px;
+    position:relative;
+    font-size: 29px;
+  }
+  .bg p{
+    margin-left: 20px;
+    margin-top: -40px;
+    font-size:18px;
+    color:#3b3a3a;
+    font-style: Arial;
+  }
+  .iconthree{
+    width: 35px;
+    margin-left: 25px;
+    position: relative;
+    top: 10px;
+    size: 4px;
+  }
+  .BG H5{
+    margin-left: 80px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-style: arial;
+    bottom: 25px;
+    position:relative;
+  }
+  .kk{
+    background-color: white;
+    width: 17%;
+    height: 120px;
+    margin-left: 32px;
+    border-radius: 15px;
+    margin-top: 15px;
+    
+  }
+  .ww{
+    margin-left: 30px;
+    top:30%;
+    position: relative;
+    font-style: arial;
+  }
+  .g{
+    background-color: white;
+    width: 17%;
+    height: 95px;
+    margin-left: 30px;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  .g p{
+    margin-left: 20px;
+    top: 20px;
+    font-style: arial;
+    color: #6e6d6d;
+    position: relative;
+  }
+  .hh{
+    background-color: white;
+    width: 17%;
+    height: 160px;
+    margin-left: 30px;
+    border-radius: 17px;
+    margin-top: 10px;
+  }
+  .hh .fa-solid.fa-bookmark{
+    font-size: 17px;
+    margin-left: 27px;
+    margin-top: 15px;
+    color: #050505;
+
+  }
+  .hh .fa-solid.fa-people-group{
+    font-size: 17px;
+    top: 37px;
+    position: relative;
+    margin-left: -25px;
+    margin-top: 15px;
+    color: #050505;
+  }
+  .hh .fa-regular.fa{
+    font-size: 17px;
+    top: 37px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #050505;
+  }
+  .hh .fa-regular.fa-newspaper{
+    font-size: 17px;
+    position: relative;
+    top: 70px;
+    margin-left: -25px;
+  }
+  .hh .fa-solid.fa-calendar-week{
+    font-size: 17px;
+    position: relative;
+    top: 110px;
+    margin-left: -25px;
+  }
+  .hh p{
+    font-size: 13px;
+    margin-left: 50%;
+  }
+  .p1{
+    bottom: 35px;
+    position: relative;
+  }
+  .p2{
+    bottom: 23px;
+    position: relative;
+  }
+  .p3{
+    bottom: 13px;
+    position: relative;
+  }
+  .p4{
+    bottom: 3px;
+    position: relative;
+  }
+  .f1{
+    background-color: white;
+    width: 50%;
+    position: relative;
+    height: 160px;
+    margin-left: 340px;
+    bottom: 780px;
+    border-radius: 11px;
+  }
+  .iconfour{
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+    position: relative;
+    margin-left: 3%;
+    top: 22px;
+  }
+  .search-key1{
+    margin-left: 20px;
+    width: 70%;
+    height: 35px;
+    border-radius: 17px;
+    position: relative;
+    top: 13px;
+    background-color: #fffafa;
+    border: 2px solid #a4a3a3;
+
+  }
+  .p5{
+    position: relative;
+    bottom: 32px;
+    margin-left: 17%;
+  }
+  .fa-brands.fa-youtube{
+    margin-left: 6%;
+    color:rgb(16, 209, 16);
+    font-size: 32px;
+    border-radius: 2px;
+    position:relative;
+  }
+  .fa-regular.fa-image{
+    margin-left: 140px;
+    color: rgb(0, 102, 255);
+    font-size: 32px;
+    position: relative;
+    border-radius: 2px;
+  }
+  .fa-solid.fa-align-justify{
+    color:orange;
+    font-size:32px;
+    position: relative;
+    margin-left: 500px;
+    bottom: 84px;
+  }
+  .sc{
+    width: 620px;
+    margin-left: 350px;
+    margin-top: -755px;
+    position: relative;
+  }
+  .fa-solid.fa-caret-down{
+    position: relative;
+    margin-left: 1080px;
+    top:-55px;
+  }
+  .scale1{
+   margin-left: 990px;
+   position: relative;
+   top: -27px;
+color: #817b7b;
+  }
+  .p6{
+    position: relative;
+    margin-left: 1053px;
+    top:-90PX;
+  }
+  .bgfour{
+    background-color: white;
+    width: 740px;
+    height: 1470px;
+    margin-left: 345px;
+    margin-top: -55px;
+    border-radius: 11px;
+  }
+  .sc2{
+    margin-left: 65px;
+    position: relative;
+    top: 15px;
+    font-size: 18px;
+  }
+  .img1{
+    width:40px;
+    height: 40px;
+    border-radius: 19px;
+    position: relative;
+    margin-left: 20px;
+    bottom: 30px;
+  }
+  .like{
+    position:relative;
+    bottom: 78px;
+    margin-left: 25%;
+    color: #a4a3a3;
+    }
+  .fa-solid.fa-ellipsis{
+    position:relative;
+    bottom: 110px;
+    margin-left: 90%;
+    color: #a4a3a3;
+    font-size: large;
+  }
+  .fa-solid.fa-xmark{
+    position: relative;
+    bottom: 130px;
+    margin-left: 96%;
+    color: #a4a3a3;
+  }
+  .line{
+    width:90%;
+    margin-left: 30px;
+    position: relative;
+    bottom: 110px;
+  }
+  .img2{
+     width:80px;
+    height: 50px;
+    border-radius: 19px;
+    position: relative;
+    margin-left: 7px;
+    bottom: 95px;
+  }
+  .pw{
+    bottom: 11%;
+    position: relative;
+    margin-left: 90px;
+    font-size: 18px;
+  }
+  .wp{
+    bottom: 12%;
+    position: relative;
+    margin-left: 90px;
+    color: #8b8b8b;
+  }
+  .wp1{
+    bottom: 13%;
+    position: relative;
+    margin-left: 90px;
+    color: #8b8b8b;
+  }
+  .fa-solid.fa-earth-asia{
+    position: relative;
+    bottom: 225px;
+    margin-left: 185px;
+    color: #8b8b8b;
+  
+  }
+  .wp2{
+    position: relative;
+    bottom: 15%;
+    color: #1c1b1b;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .person{
+    width: 740px;
+    position: relative;
+    bottom: 200px;
+  }
+  .fa-solid.fa-thumbs-up{
+    position: relative;
+    bottom: 125px;
+    margin-left: 6%;
+    color:#0408f2;
+    font-size: 45px;
+  }
+  .fa-solid.fa-comment-dots{
+    position: relative;
+    bottom: 125px;
+    margin-left: 15%;
+    color:#979292;
+    font-size: 45px;
+  }
+  .fa-solid.fa-arrows-rotate{
+    position: relative;
+    bottom: 125px;
+    margin-left: 20%;
+    color:#fd0101;
+    font-size: 45px;
+  }
+  .fa-solid.fa-paper-plane{
+    position: relative;
+    bottom: 170px;
+    margin-left: 82%;
+    color:#000000;
+    font-size: 45px;
+  }
+  .line2{
+    width:90%;
+    margin-left: 30px;
+    position: relative;
+    bottom: 140px;
+  }
+  .e1{
+    margin-left: 55px;
+    position: relative;
+    bottom: 181px;
+    font-size: 18px;
+  }
+  .e2{
+    margin-left: 210px;
+    position: relative;
+    bottom: 220px;
+    font-size: 18px;
+  }
+  .e3{
+    margin-left: 430px;
+    position: relative;
+    bottom: 260px;
+    font-size: 18px;
+  }
+  .e4{
+    margin-left: 620px;
+    position: relative;
+    bottom: 300px;
+    font-size: 18px;
+  }
+  .e5{
+    margin-left: 580px;
+    position: relative;
+    bottom: 450px;
+    font-size: 18px;
+    color: #898383;
+  }
+  .leftside{
+    background-color: white;
+    width: 350px;
+    height: 900px;
+    margin-left: 1140px;
+    border-radius: 12px;
+    bottom: 1740px;
+    position: relative;
+  }
+  .c1{
+    position: relative;
+    color: #000000;
+    font-size: 24px;
+    margin-left: 25px;
+    bottom: -20px;
+  }
+  .c2{
+    position: relative;
+    color: #878484;
+    font-size: 20px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c3{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c4{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c5{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c6{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c7{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c8{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c9{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c10{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c11{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c12{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c13{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c14{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c15{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c16{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c17{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c18{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c19{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c20{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c21{
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  .c22{
+    position: relative;
+    color: #a3a0a0;
+    font-size: 17px;
+    margin-left: 30px;
+    bottom: -27px;
+  }
+  </style>
+</head>
+<body class="cl">
+  <div class="container">
+<i class="fa-brands fa-linkedin"></i>
+<input type="text" name="search" placeholder="search" class="search-key">
+  <i class="fa-solid fa-house"></i>
+  <label >Home</label>  
+  <i class="fa-brands fa-connectdevelop"></i>
+  <label>Network</label>
+  <i class="fa-solid fa-calendar"></i>
+  <label>Job</label>
+  <i class="fa-solid fa-message"></i>
+  <label>message</label>
+  <i class="fa-regular fa-bell"></i>
+  <label>Notification</label>
+     <img class="icon"
+      src="https://cdn.analyticsvidhya.com/wp-content/uploads/2024/04/Meet_the_SWE-Agent-_A_New_Era_of_AI_Programmers-2048x1151.jpg">
+     <label class="me">ME</label>
+    <i class="fa-solid fa-caret-up"></i>
+    <i class="fa-solid fa-minus"></i>
+    <i class="fa-solid fa-arrow-up-right-dots"></i>
+    <label class="b" >For Business</label>
+    <i class="fa-solid fa-clapperboard"></i>
+    <label class="c">Try premium for ₹0</label>
+  </div>
+  <div class="bg">
+   <img class=iconone  src="ai1.jpg">
+   <img class="icontwo" src="ai.jpg">
+   <h2>Akshay.C.M.</h2>
+   <i class="fa-regular fa-circle-check"></i>
+    <p> Beginner Full Stack Developer</p>
+    <img class=" iconthree" src="mg.jpg">
+    <h5>Mahatma Gandhi University(MGU),Kottayam</h5>
+    <p style="bottom: 70px; position:relative">Kerala</p>
+  </div>
+  <div class="kk">
+    <p class="ww">Profile Viewers</p>
+    <p style="color: #0531f5; font-size: 18px; margin-left: 85%; margin-bottom: 14px; ">7</p>
+    <p style="font-style: arial; position:  relative; margin-left: 12%;">View all Analytics</p>
+  </div>
+  <div class="g">
+  <p> Get 4x more profile views with premium</p>
+  <h6 style="margin-left: 20%; font-size: 13px; font-style: arial;">Try for ₹0</h6>
+  <i class="fa-solid fa-clapperboard" style="font-size: 20px; right: 68px; position: relative; bottom: 47px;"></i>
+  </div>
+  <div class="hh">
+    <i class="fa-solid fa-bookmark"></i>
+    <i class="fa-solid fa-people-group"></i>
+    <i class="fa-regular fa-newspaper"></i>
+    <i class="fa-solid fa-calendar-week"></i>
+    <p class="p1">Saved item</p>
+    <p class="p2">Groups</p>
+    <p class="p3">Newsletter</p>
+    <p class="p4">Events</p>
+  </div>
+  <div class="f1">
+    <img class="iconfour" src="ai.jpg">
+    <input type="text" name="post" placeholder="" class="search-key1">
+    <p class="p5">Start a post</p>
+    <i class="fa-brands fa-youtube"></i>
+    <label style="width: 20px; margin-left: 10px; position: relative; font-size: 17px; color: #050505; bottom:3px;" > Video</label>
+    <i class="fa-regular fa-image"></i>
+    <p style="width: 20px; margin-left: 340px; position: relative; font-size: 17px; color: #050505; bottom:40px;">Photo</p>
+    <i class="fa-solid fa-align-justify"></i>
+    <p style="width: 20px; margin-left: 550px; position: relative; font-size: 17px; color: #050505; bottom:125px;fo">
+    Write&nbsp;artical</p>
+  </div>
+  <div class="scale">
+    <hr class="sc">
+    <div class="header-bar">
+    <p class="scale1">sort by:</p>
+    <i class="fa-solid fa-caret-down"></i>
+    <p class="p6">Top</p>
+</div>
+  </div>
+  <div class="bgfour">
+    <p class="sc2">Gergely Orosz.</p>
+    <img class="img1" src="Gergely Orosz.jpg">
+    <p class="like">likes this</p>
+    <i class="fa-solid fa-ellipsis"></i>
+    <i class="fa-solid fa-xmark"></i>
+    <hr class="line">
+    <img class="img2" src="wipro.jpg">
+    <p class="pw">wipro</p>
+    <p class="wp">11,400,300&nbsp;followers</p>
+    <p class="wp1">15&nbsp;h&nbsp;•&nbsp;Edited&nbsp;•</p>
+    <i class="fa-solid fa-earth-asia"></i>
+    <p class="wp2">95% of GenAI pilots fail—but not for the reasons you think. <u><a href="https://www.linkedin.com/in/srinivasaahg/">"Srinivasaa"</a></u> HG explains why data maturity is the real barrier to scale.
+       His article dives into how governance, integration, and collaboration—not just cutting-edge 
+      models—are the keys to unlocking GenAI’s potential. It’s not about more tech; it’s about better foundations.
+      <br>
+      <br>
+Srini’s message is clear: enterprises that treat data as a strategic asset are the ones turning AI into business value.
+ From assigning data stewards to unifying repositories,
+  the article outlines how “Front Runners” are moving GenAI into production and delivering measurable outcomes.
+ If you’re serious about AI, this is your blueprint.<u><a href="https://bit.ly/3MdFZXx"> https://bit.ly/3MdFZXx</a></u></p>
+ <img class="person" src="person.jpg">
+ <hr class="line2">
+ <i class="fa-solid fa-thumbs-up"></i>
+ <i class="fa-solid fa-comment-dots"></i>
+ <i class="fa-solid fa-arrows-rotate"></i>
+ <i class="fa-solid fa-paper-plane"></i>
+ <p class="e1">Like</p>
+ <p class="e2">Command</p>
+ <p class="e3">Repost</p>
+ <p class="e4">Send</p>
+ <p class="e5">46&nbsp;command&nbsp;·&nbsp;11</p>
+  </div>
+  <div class="leftside">
+  <p class="c1">LinkedIn&nbsp;News</p>
+  <p class="c2">Top&nbsp;Stories</p>
+  <p class="c3">Netflix buys Warner Bros. Discovery i...</p>
+  <P class="c4">1h ago • 25,088 readers</P>
+  <p class="c5">Nokia partners with Airtel</p>
+  <p class="c6">3h ago • 3,205 readers</p>
+  <p class="c7">Rupee fall hurts India Inc</p>
+  <p class="c8">3h ago • 1,229 readers</p>
+  <p class="c9">Ronaldo invests in Perplexity</p>
+  <p class="c10">5h ago</p>
+  <p class="c11">Niche AI skills in demand</p>
+  <p class="c12">3h ago</p>
+  <p class="c13">Furlenco raises ₹125 crore</p>
+  <p class="c14">3h ago</p>
+  <p class="c15">Ultraviolette raises $45 million</p>
+  <p class="c16">6h ago</p>
+  <p class="c17">RBI cuts repo rate by 25 bps</p>
+  <p class="c18">2h ago</p>
+  <p class="c19">IndiGo cancels over 170 flights</p>
+  <p class="c20">3h ago</p>
+  <p class="c21">Textile sector faces tariff woes</p>
+  <p class="c22">4h ago</p>
+
+
+
+  </div>
+</body>
+</html>
